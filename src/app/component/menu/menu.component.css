@@ -1,0 +1,38 @@
+nav{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  height: 7vh;
+  background-color: rgb(111, 111, 111);
+  border-bottom: darkkhaki dashed 1px;
+  justify-content: space-between;
+  .logo{
+    margin-left: 80px;
+    h2{
+      a{
+        color: aliceblue;
+      }
+    }
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 80px;
+    li{
+      
+      a{
+        color: aliceblue;
+        transition: ease-in-out .4s;
+        &:hover{
+          color: lightgreen;
+        }
+        
+      }
+    }
+  }
+  .active{
+    font-weight: bold;
+    font-size: large;
+  }
+}
