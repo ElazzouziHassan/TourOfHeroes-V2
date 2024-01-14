@@ -9,6 +9,7 @@ import { CrisisComponent } from './component/crisis/crisis.component';
 import { HeroesListComponent } from './pages/heroes-list/heroes-list.component';
 import { CrisisListComponent } from './pages/crisis-list/crisis-list.component';
 import { MenuComponent } from './component/menu/menu.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenuComponent } from './component/menu/menu.component';
     CrisisComponent,
     HeroesListComponent,
     CrisisListComponent,
-    MenuComponent
+    MenuComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
